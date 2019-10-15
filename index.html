@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SlideShare Downloader - Parth Maniar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css'>
 <link rel="stylesheet" href="./style.css">
 </head>
@@ -56,9 +58,10 @@
         <div class="row">
         <div class="  input-field col s6 " style="width:30em;">
           <a class=" material-icons md-light prefix ">link</a>
-          <input name="url"  class="white-text" id=" icon_prefix" type="text" >
-          <label for="icon_prefix">Paste your link here</label>
+          
+          <input placeholder="Paste your link here" name="url"  class="white-text" id=" icon_prefix" type="text" >
         </div>
+        
       </div>
         <button style="
     
@@ -70,9 +73,10 @@
    " class="black btn waves-effect waves-light"  id="submit">Download
     <i class="material-icons right">cloud_download</i>
    
-
+    
   </button>
-        
+  <div class="fa fa-check done"></div>
+  <div class="fa fa-close failed"></div>
  </div>
   </div>
    <div class=" row" style="
@@ -89,19 +93,7 @@
     </div>
   </div>
 
-  <div class=" row " style="
-   text-size: 15px;
-    top: 97%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    position: absolute;">
-    <div >
-      <div href="https://www.linkedin.com/in/parth-maniar-1b077a14a/"  class="white-box" >
-        <span class="black-text"> <a href="https://www.linkedin.com/in/parth-maniar-1b077a14a/"> Total Downloads : </a> <a id="counter" href="https://www.linkedin.com/in/parth-maniar-1b077a14a/"> **</a>
-        </span>
-      </div>
-    </div>
-  </div>
+ 
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js'></script>

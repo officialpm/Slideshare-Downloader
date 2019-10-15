@@ -9,56 +9,54 @@ $.ajax({
       
     }
 });
+function download(url, filename) {
+    fetch(url).then(function(t) {
+        return t.blob().then((b)=>{
+            var a = document.createElement("a");
+            a.href = URL.createObjectURL(b);
+            a.setAttribute("download", filename);
+            a.click();
+        }
+        );
+    });
+    }
 
 /* Helper function */
-function download_file(fileURL, fileName) {
-    // for non-IE
-    if (!window.ActiveXObject) {
-        var save = document.createElement('a');
-        save.href = fileURL;
-        save.target = '_blank';
-        var filename = fileURL.substring(fileURL.lastIndexOf('/')+1);
-        save.download = fileName || filename;
-	       if ( navigator.userAgent.toLowerCase().match(/(ipad|iphone|safari)/) && navigator.userAgent.search("Chrome") < 0) {
-				document.location = save.href; 
-// window event not working here
-			}else{
-		        var evt = new MouseEvent('click', {
-		            'view': window,
-		            'bubbles': true,
-		            'cancelable': false
-		        });
-		        save.dispatchEvent(evt);
-		        (window.URL || window.webkitURL).revokeObjectURL(save.href);
-			}	
-    }
 
-    // for IE < 11
-    else if ( !! window.ActiveXObject && document.execCommand)     {
-        var _window = window.open(fileURL, '_blank');
-        _window.document.close();
-        _window.document.execCommand('SaveAs', true, fileName || fileURL)
-        _window.close();
-    }
+function validateURL(url) {   
+    var re = /^http(s)?:\/\/www.slideshare.net\//ig;
+    return re.test(url);
 }
-  
- 
-  
+
 $("#submit").click(function() {
 
+    if(validateURL(document.getElementsByName("url")[0].value))
+    {
 
-   
 
-    var res = document.getElementsByName("url")[0].value.split("/");
 
+    $("#submit").addClass("loading");
+    setTimeout(function() {
+      $("#submit").addClass("hide-loading");
+      // For failed icon just replace ".done" with ".failed"
+      $(".done").addClass("finish");
+    }, 3000);
+    setTimeout(function() {
+      $("#submit").removeClass("loading");
+      $("#submit").removeClass("hide-loading");
+      $(".done").removeClass("finish");
+      $("#submit").removeClass("finish");
+    }, 5000);
+
+    
+var res = document.getElementsByName("url")[0].value.split("/");
 url="https://parthmaniar.herokuapp.com/slideshare?url="+document.getElementsByName("url")[0].value;
-window.open(url);
 
-
-
-
-download_file(url,res[4]);
-
+download(url,res[4]);
+    }
+    else{
+        alert("Enter a valid SlideShare Link (Make sure http/https and www is included)");
+    }
 });
 
 $(".button-collapse").sideNav();
