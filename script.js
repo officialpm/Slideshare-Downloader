@@ -1,10 +1,10 @@
 $.ajax({
-    url: "http://parthmaniar.herokuapp.com/slideshare/downloadcount#",
+    url: "http://parthmaniar.herokuapp.com/slideshare/downloadcount",
     dataType: "json",
     success: function(result, status, xhr) {
-      console.log(result.count.toString());
+      console.log(result.downloadCount.toString());
      setTimeout(function(){
-  counter.innerHTML = result.count;
+        document.getElementById("downloadC").textContent="Total Downloads: "+result.downloadCount;
 }, 10);
       
     }
