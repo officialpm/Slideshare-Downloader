@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Slideshare-Downloader/static/css/main.19f36cf7.chunk.css",
+    "main.js": "/Slideshare-Downloader/static/js/main.b2b08586.chunk.js",
+    "main.js.map": "/Slideshare-Downloader/static/js/main.b2b08586.chunk.js.map",
+    "runtime-main.js": "/Slideshare-Downloader/static/js/runtime-main.2974585d.js",
+    "runtime-main.js.map": "/Slideshare-Downloader/static/js/runtime-main.2974585d.js.map",
+    "static/css/2.6ad13c07.chunk.css": "/Slideshare-Downloader/static/css/2.6ad13c07.chunk.css",
+    "static/js/2.9d22e1d1.chunk.js": "/Slideshare-Downloader/static/js/2.9d22e1d1.chunk.js",
+    "static/js/2.9d22e1d1.chunk.js.map": "/Slideshare-Downloader/static/js/2.9d22e1d1.chunk.js.map",
+    "index.html": "/Slideshare-Downloader/index.html",
+    "precache-manifest.02c2063ade1c177d280ad0601ab360a1.js": "/Slideshare-Downloader/precache-manifest.02c2063ade1c177d280ad0601ab360a1.js",
+    "service-worker.js": "/Slideshare-Downloader/service-worker.js",
+    "static/css/2.6ad13c07.chunk.css.map": "/Slideshare-Downloader/static/css/2.6ad13c07.chunk.css.map",
+    "static/css/main.19f36cf7.chunk.css.map": "/Slideshare-Downloader/static/css/main.19f36cf7.chunk.css.map",
+    "static/js/2.9d22e1d1.chunk.js.LICENSE.txt": "/Slideshare-Downloader/static/js/2.9d22e1d1.chunk.js.LICENSE.txt",
+    "static/media/download.svg": "/Slideshare-Downloader/static/media/download.2b98972b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2974585d.js",
+    "static/css/2.6ad13c07.chunk.css",
+    "static/js/2.9d22e1d1.chunk.js",
+    "static/css/main.19f36cf7.chunk.css",
+    "static/js/main.b2b08586.chunk.js"
+  ]
+}
