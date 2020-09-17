@@ -1,0 +1,57 @@
+.ActivityIndicator .dots {
+  height: 15px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6px;
+  margin: 0 auto;
+  width: 36px;
+  justify-content: center;
+  align-items: center;
+}
+.ActivityIndicator .dots span {
+  -webkit-transition: all 6000ms ease;
+  transition: all 6000ms ease;
+  background: rgba(255, 255, 255, 0.5);
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  animation: flash 2s ease infinite;
+  -webkit-animation: flash 2s ease infinite;
+}
+
+.ActivityIndicator .dots span:nth-child(1) {
+  animation-delay: 0;
+  -webkit-animation-delay: 0;
+}
+.ActivityIndicator .dots span:nth-child(2) {
+  animation-delay: 100ms;
+  -webkit-animation-delay: 100ms;
+}
+.ActivityIndicator .dots span:nth-child(3) {
+  animation-delay: 200ms;
+  -webkit-animation-delay: 200ms;
+}
+
+@-webkit-keyframes flash {
+  0%,
+  40%,
+  100% {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  10% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
+@keyframes flash {
+  0%,
+  40%,
+  100% {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  10% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+}

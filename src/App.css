@@ -1,0 +1,55 @@
+h1 {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: -0.15rem;
+}
+#title {
+  display: grid;
+  margin: 2rem auto;
+  background-color: #fff;
+  border-radius: 12px;
+  max-width: 600px;
+  justify-self: center;
+  padding: 0.7rem;
+}
+#urlCard {
+  max-width: 500px;
+  display: grid;
+  gap: 0.5rem;
+  margin: 2rem auto;
+  margin-top: 3rem;
+}
+
+#footer {
+  text-align: center;
+}
+
+#image {
+  max-width: 300px;
+  display: grid;
+  gap: 0.5rem;
+  margin: 2rem auto;
+}
+#downloads {
+  max-width: 165px;
+  width: 70%;
+  display: grid;
+}
+#urlCard button {
+  justify-self: center;
+  max-width: 15rem;
+  min-width: 10rem;
+}
+
+#card {
+  max-width: 750px;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  display: grid;
+  gap: 0.5rem;
+  margin: 2rem auto;
+}
