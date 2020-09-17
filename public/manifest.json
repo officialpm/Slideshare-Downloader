@@ -1,5 +1,11 @@
 {
   "name": "SlideShare-Downloader",
+  "short_name":"SlideShare-Downloader",
+  "start_url":"/",
+  "background_color":"#0C2744",
+  "theme_color":"#0C2744",
+  "scope":"/",
+  "display":"standalone",
   "icons": [
     {
       "src": "/android-icon-36x36.png",
