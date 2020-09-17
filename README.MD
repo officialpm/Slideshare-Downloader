@@ -7,8 +7,7 @@ SlideShare is great for presentations and last minute assignments but unfortunat
 
 ## Screens
 
-<img align:center src=https://github.com/officialpm/Slideshare-Downloader/raw/master/demo1.gif width="500">
-
+<img align:center src=media/slideshare-downloader-v2.png width="500">
 
 
 ## Built With
