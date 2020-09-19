@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0aac14e938fdd4852166f905e5874b8",
+    "revision": "035c443e63a9f332e0828844da7e2e02",
     "url": "/Slideshare-Downloader/index.html"
   },
   {
-    "revision": "d0ca330eaf1204973393",
+    "revision": "a41134672f29947c621d",
     "url": "/Slideshare-Downloader/static/css/2.6ad13c07.chunk.css"
   },
   {
-    "revision": "73dab118c81a6cc1cf1e",
-    "url": "/Slideshare-Downloader/static/css/main.19f36cf7.chunk.css"
+    "revision": "42b3d702ec2ec58e8a88",
+    "url": "/Slideshare-Downloader/static/css/main.5aa4ec3b.chunk.css"
   },
   {
-    "revision": "d0ca330eaf1204973393",
-    "url": "/Slideshare-Downloader/static/js/2.9d22e1d1.chunk.js"
+    "revision": "a41134672f29947c621d",
+    "url": "/Slideshare-Downloader/static/js/2.9173b128.chunk.js"
   },
   {
     "revision": "6bd732d9fd36e6d716fd9f6d620a8460",
-    "url": "/Slideshare-Downloader/static/js/2.9d22e1d1.chunk.js.LICENSE.txt"
+    "url": "/Slideshare-Downloader/static/js/2.9173b128.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "73dab118c81a6cc1cf1e",
-    "url": "/Slideshare-Downloader/static/js/main.b2b08586.chunk.js"
+    "revision": "42b3d702ec2ec58e8a88",
+    "url": "/Slideshare-Downloader/static/js/main.cf9c0c59.chunk.js"
   },
   {
     "revision": "9c0804bee0562f1c446d",
