@@ -1,10 +1,10 @@
 {
   "name": "SlideShare-Downloader",
   "short_name": "SlideShare-Downloader",
-  "start_url": "https://officialpm.github.io/Slideshare-Downloader",
+  "start_url": "https://officialpm.github.io/Slideshare-Downloader/",
   "background_color": "#0C2744",
   "theme_color": "#0C2744",
-  "scope": "https://officialpm.github.io/Slideshare-Downloader",
+  "scope": "https://officialpm.github.io/Slideshare-Downloader/",
   "display": "standalone",
   "icons": [
     {
