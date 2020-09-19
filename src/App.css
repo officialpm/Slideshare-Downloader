@@ -15,6 +15,14 @@ h4 {
   justify-self: center;
   padding: 0.7rem;
 }
+#header {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+  background-color: #fff;
+  justify-self: center;
+  /* padding: 0.2rem; */
+  grid-column: span 3;
+}
 #urlCard {
   max-width: 500px;
   display: grid;
@@ -26,7 +34,11 @@ h4 {
 #footer {
   text-align: center;
 }
+#example {
+  border-radius: 10px;
+  text-align: center;
 
+}
 #image {
   max-width: 300px;
   display: grid;
@@ -34,6 +46,7 @@ h4 {
   margin: 2rem auto;
 }
 #downloads {
+  padding-top: 4px;
   max-width: 165px;
   width: 70%;
   display: grid;
@@ -52,4 +65,24 @@ h4 {
   display: grid;
   gap: 0.5rem;
   margin: 2rem auto;
+}
+
+main {
+  margin: 2rem 0;
+}
+
+main > * {
+  margin: 0.5rem;
+}
+
+@media only screen and (min-width: 800px) {
+  main {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+main > h3 {
+  grid-column: span 2;
 }

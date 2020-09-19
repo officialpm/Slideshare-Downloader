@@ -50,7 +50,10 @@ function App() {
 
     }
   }, []);
-
+const NewTab = () => { 
+  window.open( 
+    "https://github.com/officialpm/Slideshare-Downloader", "_blank"); 
+} 
   const handleSubmit = useCallback(() => {
     if (!url) {
       setError("No URL entered!");
@@ -161,40 +164,80 @@ function App() {
             {loading ? <ActivityIndicator /> : "Download"}
           </Button>
 
+
         </div>
 
+        <main>
+          <Card >
+            <CardBody>
+              <CardTitle>Instruction To Use</CardTitle>
+              <p >
 
-        <Card id="card">
-          <CardBody>
-            <CardTitle>About</CardTitle>
-            <p>
-              <img id="downloads" src={"https://parthmaniar.herokuapp.com/slideshare/downloadcountBadge?color=BLUE&text=Total%20Downloads"} alt="Slideshare Downloader" />
-              <br />
+                <br />
 
-              <b>SlideShare</b> is great for presentations and last minute assignments but unfortunately
+                <b>1.</b> Go to <a target="blank" href="https://www.slideshare.net">
+                  Slideshare.net
+                </a>  <br />
+                <b>2.</b> 🔍 Search for slides and copy its link.<br />
+                <b>3.</b> Paste the url in the box above and click on download. ✨<br />
+              </p>
+              <p id="example">Example -<a target="blank" href="https://www.slideshare.net/AmazonWebServices/track-6-session-6-aws-ai"> https://www.slideshare.net/AmazonWebServices/track-6-session-6-aws-ai</a></p>
+            </CardBody>
+            <CardFooter id="footer">
+
+              <b>
+                Developed By: <br />
+                <a target="blank" href="https://www.linkedin.com/in/parthdmaniar/">
+                  Parth Maniar
+                </a>  <br />
+
+                <a target="blank" href="https://www.github.com/officialpm">
+                  <i class="fab fa-github mr-2"></i>
+                </a>
+                <a target="blank" href="https://www.linkedin.com/in/parthdmaniar/">
+                  <i class="fab fa-linkedin mr-2"></i>
+                </a>
+              </b>
+
+            </CardFooter>
+          </Card>
+          <Card>
+            <CardBody>
+              <CardTitle>About</CardTitle>
+              <p >
+                <div id="header">
+                  <img id="downloads" src={"https://parthmaniar.herokuapp.com/slideshare/downloadcountBadge?color=BLUE&text=Total%20Downloads"} alt="Slideshare Downloader" />
+                  <Button size="sm" pill theme="warning" onClick={NewTab}>
+                    <i class="fa fa-star mr-2"></i>
+                    <b>{"Star me on GitHub"}</b>
+                  </Button>
+                </div>
+                <br />
+
+                <b>SlideShare</b> is great for presentations and last minute assignments but unfortunately
               can't download slides? Don't worry, here is the tool that will help you download slides in no time.
               Just a bit of knowledge of python web scraping and selenium is what I used to build this tool.
             </p>
-          </CardBody>
-          <CardFooter id="footer">
+            </CardBody>
+            <CardFooter id="footer">
 
-            <b>
-              Developed By: <br />
-              <a target="blank" href="https://www.linkedin.com/in/parthdmaniar/">
-                Parth Maniar
+              <b>
+                Developed By: <br />
+                <a target="blank" href="https://www.linkedin.com/in/parthdmaniar/">
+                  Parth Maniar
                 </a>  <br />
 
-              <a target="blank" href="https://www.github.com/officialpm">
-                <i class="fab fa-github mr-2"></i>
-              </a>
-              <a target="blank" href="https://www.linkedin.com/in/parthdmaniar/">
-                <i class="fab fa-linkedin mr-2"></i>
-              </a>
-            </b>
+                <a target="blank" href="https://www.github.com/officialpm">
+                  <i class="fab fa-github mr-2"></i>
+                </a>
+                <a target="blank" href="https://www.linkedin.com/in/parthdmaniar/">
+                  <i class="fab fa-linkedin mr-2"></i>
+                </a>
+              </b>
 
-          </CardFooter>
-        </Card>
-
+            </CardFooter>
+          </Card>
+        </main>
       </Container>
     </>
   );
