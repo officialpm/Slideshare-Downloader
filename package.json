@@ -9,7 +9,6 @@
     "downloader",
     "slideshare downloader"
   ],
-  "homepage": "https://officialpm.github.io/Slideshare-Downloader/",
   "repository": {
     "type": "git",
     "url": "https://github.com/officialpm/Slideshare-Downloader.git"
