@@ -16,7 +16,7 @@
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^11.0.4",
-    "@testing-library/user-event": "^7.1.2",
+    "@testing-library/user-event": "^12.1.6",
     "file-saver": "^2.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
