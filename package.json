@@ -14,7 +14,7 @@
     "url": "https://github.com/officialpm/Slideshare-Downloader.git"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.4",
     "@testing-library/user-event": "^7.1.2",
     "file-saver": "^2.0.2",
