@@ -1,0 +1,48 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  reviewers:
+  - officialpm
+  ignore:
+  - dependency-name: "@testing-library/user-event"
+    versions:
+    - 12.6.2
+    - 12.6.3
+    - 12.7.0
+    - 12.7.1
+    - 12.7.2
+    - 12.7.3
+    - 12.8.0
+    - 12.8.1
+    - 12.8.3
+    - 13.0.0
+    - 13.0.1
+    - 13.0.10
+    - 13.0.13
+    - 13.0.16
+    - 13.0.2
+    - 13.0.6
+    - 13.0.7
+    - 13.1.1
+    - 13.1.2
+    - 13.1.3
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: "@testing-library/jest-dom"
+    versions:
+    - 5.11.10
+    - 5.11.9
+  - dependency-name: react-scripts
+    versions:
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: "@testing-library/react"
+    versions:
+    - 11.2.3
+    - 11.2.5
