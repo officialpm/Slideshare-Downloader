@@ -21,7 +21,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-particles-js": "^3.4.1",
-    "react-scripts": "3.4.3",
+    "react-scripts": "4.0.3",
     "shards-react": "^1.0.3"
   },
   "scripts": {
