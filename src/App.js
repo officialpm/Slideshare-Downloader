@@ -60,7 +60,7 @@ const NewTab = () => {
       return false;
     }
     setLoading(true);
-    fetch("https://parthmaniar.herokuapp.com/slideshare?url=" + url, {
+    fetch("https://parthmaniar2.herokuapp.com/slideshare?url=" + url, {
       method: "GET"
     })
       .then((response) => {
