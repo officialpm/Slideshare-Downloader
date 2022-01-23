@@ -206,7 +206,7 @@ const NewTab = () => {
               <CardTitle>About</CardTitle>
               <p >
                 <div id="header">
-                  <img id="downloads" src={"https://parthmaniar.herokuapp.com/slideshare/downloadcountBadge?color=BLUE&text=Total%20Downloads"} alt="Slideshare Downloader" />
+                  <img id="downloads" src={"https://parthmaniar2.herokuapp.com/slideshare/downloadcountBadge?color=BLUE&text=Total%20Downloads"} alt="Slideshare Downloader" />
                   <Button size="sm" pill theme="warning" onClick={NewTab}>
                     <i class="fa fa-star mr-2"></i>
                     <b>{"Star me on GitHub"}</b>
