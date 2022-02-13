@@ -1,6 +1,6 @@
 <div align="center">
   
-# [SlideShare Downloader](https://officialpm.github.io/Slideshare-Downloader) 🚀
+# [SlideShare Downloader](https://slideshare.theteacoder.tech) 🚀
 
 ![Total Downloads](https://img.shields.io/badge/dynamic/json?label=downloads&color=f58b1b&style=flat-square&query=%24.downloadCount&url=https%3A%2F%2Fparthmaniar2.herokuapp.com%2Fslideshare%2Fdownloadcount)
 ![Website](https://img.shields.io/website?up_message=online&style=flat-square&url=https%3A%2F%2Fofficialpm.github.io%2FSlideshare-Downloader%2F)
@@ -16,7 +16,7 @@ SlideShare is great for presentations and last minute assignments but unfortunat
 
 ---
 
-<b> Live : https://officialpm.github.io/Slideshare-Downloader </b>
+<b> Live : https://slideshare.theteacoder.tech </b>
 
 ## Screens
 
