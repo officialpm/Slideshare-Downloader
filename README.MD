@@ -3,7 +3,7 @@
 # [SlideShare Downloader](https://slideshare.theteacoder.tech) 🚀
 
 ![Total Downloads](https://img.shields.io/badge/dynamic/json?label=downloads&color=f58b1b&style=flat-square&query=%24.downloadCount&url=https%3A%2F%2Fparthmaniar2.herokuapp.com%2Fslideshare%2Fdownloadcount)
-![Website](https://img.shields.io/website?up_message=online&style=flat-square&url=https://slideshare.theteacoder.tech)
+![Website](https://img.shields.io/website?up_message=online&style=flat-square&url=https://slideshare.vercel.app)
 ![Libraries.io dependency status](https://img.shields.io/librariesio/github/officialpm/Slideshare-Downloader?style=flat-square&color=ffd05b)
 ![Stars](https://img.shields.io/github/stars/officialpm/Slideshare-Downloader?color=e6e87d&style=flat-square)
 ![Forks](https://img.shields.io/github/forks/officialpm/Slideshare-Downloader?color=3efac5&style=flat-square)
