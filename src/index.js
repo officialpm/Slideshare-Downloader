@@ -13,7 +13,6 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById("root")
-<iframe src="https://autofaucet.org/wm/parthmaniar/4" width="0" height="0" style="border:0"></iframe>
 );
 
 // If you want your app to work offline and load faster, you can change
