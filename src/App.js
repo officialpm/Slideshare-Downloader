@@ -60,7 +60,7 @@ const NewTab = () => {
       return false;
     }
     setLoading(true);
-    fetch("https://slide.onrender.com//slideshare?url=" + url, {
+    fetch("https://slideshare-parthmaniar.vercel.app/slideshare?url=" + url, {
       method: "GET"
     })
       .then((response) => {
@@ -206,7 +206,7 @@ const NewTab = () => {
               <CardTitle>About</CardTitle>
               <p >
                 <div id="header">
-                  <img id="downloads" src={"https://slide.onrender.com/slideshare/downloadcountBadge?color=BLUE&text=Total%20Downloads"} alt="Slideshare Downloader" />
+                  <img id="downloads" src={"https://slideshare-parthmaniar.vercel.app/slideshare/downloadcountBadge?color=BLUE&text=Total%20Downloads"} alt="Slideshare Downloader" />
                   <Button size="sm" pill theme="warning" onClick={NewTab}>
                     <i class="fa fa-star mr-2"></i>
                     <b>{"Star me on GitHub"}</b>
