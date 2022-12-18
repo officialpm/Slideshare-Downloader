@@ -7,6 +7,8 @@ import "shards-ui/dist/css/shards.min.css";
 import App from "./App";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
+import { inject } from '@vercel/analytics';
+inject();
 
 ReactDOM.render(
   <React.StrictMode>
