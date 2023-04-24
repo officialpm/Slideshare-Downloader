@@ -18,7 +18,7 @@
     "@testing-library/react": "^11.0.4",
     "@testing-library/user-event": "^12.1.7",
     "file-saver": "^2.0.5",
-    "react": "^17.0.2",
+    "react": "^18.2.0",
     "@vercel/analytics": "^0.1.6",
     "react-dom": "^16.14.0",
     "react-particles-js": "^3.4.1",
